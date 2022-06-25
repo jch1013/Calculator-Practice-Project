@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.structure {
+    border: solid;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#display {
+    border-bottom: solid;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#display p {
+    padding: 10px;
+    font-size: .75cm;
+}
+
+.buttons {
+    border: solid;
+    height: 500px;
+    width: 400px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
