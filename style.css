@@ -39,3 +39,14 @@ body {
     justify-content: space-around;
     
 }
+
+.row-1, .row-2, .row-3, .row-4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-size: 1cm;
+    height: auto;
+    width: 2cm;
+}
