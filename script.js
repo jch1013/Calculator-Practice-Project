@@ -23,7 +23,17 @@ for (let i = 0; i < buttons.length; i++) {
 
 const solve = document.querySelector('#solve')
 solve.addEventListener('click', () => {
-     console.log('click')
+    try {
+        output = eval(expression);
+        console.log(output)
+    } catch {
+        output = 'Error'
+    }
+
+    display.textContent = output;
+    expression = output;
+     
+
 })
 
 const clearDisplay = document.querySelector('#clear-display');
